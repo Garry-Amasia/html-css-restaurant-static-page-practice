@@ -220,6 +220,36 @@ li a:hover {
   font-size: 1.7rem;
 }
 
+/* TESTIMONIAL */
+.testimonial-section {
+  background: url(./images/wine1.jpeg) no-repeat center;
+  background-size: cover;
+
+  background-attachment: fixed;
+}
+
+.testimonial {
+  width: 60%;
+  text-align: center;
+  padding: 5rem 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.q-head {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #333;
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+}
+
 /* MEDIA-QUERY */
 
 @media screen and (max-width: 600px) {
@@ -237,5 +267,11 @@ li a:hover {
   .menu-items {
     display: flex;
     flex-direction: column;
+  }
+
+  /* TESTIMONIAL */
+  .testimonial {
+    width: 90%;
+    padding: 2rem;
   }
 }
