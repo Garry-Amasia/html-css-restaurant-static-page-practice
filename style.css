@@ -354,6 +354,16 @@ footer {
 
   .order-box {
     padding: 0.5rem;
+    flex-direction: column;
+  }
+
+  .order-price {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .order-price p {
+    padding: 1rem;
   }
 
   .order-item p {
@@ -366,8 +376,8 @@ footer {
   }
 
   .btn-solid {
-    font-size: 1.3rem;
-    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    padding: 0.4rem 0.5rem;
   }
 
   /* FOOTER */
