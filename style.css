@@ -330,6 +330,10 @@ footer {
     width: 100%;
   }
 
+  .intro-section {
+    height: 75vh;
+  }
+
   /* ABOUT */
   .about {
     width: 100%;
