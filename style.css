@@ -324,7 +324,7 @@ footer {
 
 /* MEDIA-QUERY */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 528px) {
   /* INTRO */
   .intro {
     width: 100%;
